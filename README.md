@@ -1,5 +1,10 @@
 # LLM Fine-Tuning Experiments: SFT, LoRA, QLoRA, and Evaluation
 
+#Link in Colab
+* `Qwen/Qwen2.5-0.5B-Instruct` => https://colab.research.google.com/drive/1e2j6J7B-8BN0lL7_vsF0QQKm2Ntr_spE?usp=sharing
+* `Qwen/Qwen2.5-1.5B-Instruct` => https://colab.research.google.com/drive/1Jdx203SfjY0SBfidzMQIjBNqBGBKBF0O?usp=sharing
+* `Qwen/Qwen2.5-7B-Instruct`   => https://colab.research.google.com/drive/151FqvUMQL5lLacfGOKZFHN6njtdn1-ga?usp=sharing
+
 This repository contains a set of hands-on experiments for fine-tuning instruction-following large language models using supervised fine-tuning (SFT), LoRA, and QLoRA. The goal of this project is to understand the full fine-tuning workflow end-to-end: dataset preparation, chat formatting, baseline evaluation, adapter training, post-training evaluation, and saving/loading LoRA adapters.
 
 The experiments are implemented in Google Colab using Hugging Face Transformers, TRL, PEFT, Datasets, and BitsAndBytes.

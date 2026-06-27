@@ -33,10 +33,11 @@ The main goals of this project are:
 ## Models Used
 
 The experiments include different model sizes to understand the impact of scale:
-
-* `Qwen/Qwen2.5-0.5B-Instruct`
-* `Qwen/Qwen2.5-1.5B-Instruct`
-* `Qwen/Qwen2.5-7B-Instruct`
+Link in Colab
+* `Qwen/Qwen2.5-0.5B-Instruct` => https://colab.research.google.com/drive/1e2j6J7B-8BN0lL7_vsF0QQKm2Ntr_spE?usp=sharing
+* `Qwen/Qwen2.5-1.5B-Instruct` => https://colab.research.google.com/drive/1Jdx203SfjY0SBfidzMQIjBNqBGBKBF0O?usp=sharing
+* `Qwen/Qwen2.5-7B-Instruct`   => https://colab.research.google.com/drive/151FqvUMQL5lLacfGOKZFHN6njtdn1-ga?usp=sharing
+  
 
 The smaller models were used mainly to verify the training pipeline, while the 7B model was used for a more realistic fine-tuning experiment.
 
